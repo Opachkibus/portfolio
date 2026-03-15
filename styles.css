@@ -77,3 +77,10 @@ body {
     text-align: center;
     padding: 60px;
 }
+a:hover {
+    color: #82cfff;
+}
+.project-card:hover {
+    transform: translateY(-5px);
+    transition: 0.2s;
+}
