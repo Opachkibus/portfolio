@@ -1,69 +1,64 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <title>Darien Goleman | Developer Portfolio</title>
+    <title>Darien Goleman | Game Developer</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-<h1>Darien Goleman | Game Developer</h1>
+<header class="hero">
+    <h1>Darien Goleman</h1>
+    <h2>Gameplay Programmer</h2>
+    <p>Building gameplay systems in Unity and C#.</p>
 
-<p>
-Aspiring game developer currently learning C# and Unity. I enjoy building gameplay systems,
-experimenting with mechanics, and documenting my development process.
-</p>
+    <div class="hero-links">
+        <a href="#">GitHub</a>
+        <a href="#projects">View Projects</a>
+    </div>
+</header>
 
-<h2>Projects So Far</h2>
 
-<div class="project">
+<section id="projects">
 
-<h3>Tower Defense Prototype</h3>
+    <h2 class="section-title">Projects</h2>
 
-<div class="media">
+    <div class="project-grid">
 
-<img src="images/gameplay.gif" alt="Tower Defense Gameplay" class="project-media">
+        <div class="project-card">
 
-<img src="images/screenshot1.png" alt="Tower Defense Screenshot" class="project-media">
+            <img src="tower-defense.gif" alt="Tower Defense Gameplay">
 
-<img src="images/screenshot2.png" alt="Tower Defense Screenshot" class="project-media">
+            <h3>Tower Defense Prototype</h3>
 
-</div>
+            <p>
+                A turret defense game where the player protects a wall
+                from incoming enemies using a rail-mounted cannon.
+            </p>
 
-<p>
-A top-down turret defense game built in Unity where the player controls a rail-mounted
-cannon defending a wall from incoming enemies.
-</p>
+            <ul>
+                <li>Enemy spawning system</li>
+                <li>Projectile shooting system</li>
+                <li>Wall health system</li>
+                <li>Enemy destruction logic</li>
+                <li>Persistent scoring</li>
+            </ul>
 
-<ul>
-<li>Enemy spawning system</li>
-<li>Projectile shooting system</li>
-<li>Wall health system</li>
-<li>Enemy destruction logic</li>
-<Li>Persistant scoring system</Li>
-<Li>Fully functional Main Menu </Li>
-</ul>
+            <a href="#">View Code</a>
 
-<p>
-GitHub Repo: (add link later)
-</p>
+        </div>
 
-</div>
+    </div>
 
-<h2>Development Log</h2>
+</section>
 
-<p>
-This project was my first attempt at building a full gameplay loop in Unity.
-I implemented enemy (multiple types) spawning, shooting mechanics, and wall health to create
-a simple but complete defense system.
-</p>
 
-<h2>Contact</h2>
+<section class="contact">
 
-<p>
-GitHub: (add your GitHub link)
-</p>
+    <h2>Contact</h2>
+    <p>GitHub: <a href="#">Your GitHub Link</a></p>
+
+</section>
 
 </body>
 </html>
